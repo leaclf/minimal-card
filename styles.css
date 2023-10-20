@@ -1,0 +1,50 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  padding: 1em;
+  font-family: "sora", Arial, Helvetica, sans-serif;
+}
+.card {
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  max-width: 370px;
+  padding: 1em;
+  border-radius: 0.75em;
+}
+.image-container {
+  margin-bottom: 0.8em;
+}
+.card__image {
+  width: 100%;
+  border-radius: 0.75em;
+}
+.card__tag {
+  font-size: 0.625em;
+  font-weight: 700;
+  background-color: #c1c5cf;
+  padding: 0.2em 1em;
+  border-radius: 0.625em;
+  color: #883ae1;
+}
+.card__body {
+  color: #6c727f;
+}
+.card__title {
+  font-size: 1.125em;
+  color: #20293a;
+  margin-bottom: 0.3em;
+}
+.card__description {
+  font-size: 0.875em;
+  border-bottom: 1px solid #e5eaf0;
+  padding: 0 0 1.5em 0;
+}
+.card__author {
+  font-size: 0.75em;
+  margin-top: 1.5em;
+}
