@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://reliable-gingersnap-285e95.netlify.app/">
       Demo
     </a>
     <span> | </span>
